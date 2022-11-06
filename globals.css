@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../public/Ubuntu.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-ubuntu {
+  font-family: "Ubuntu";
+}
+
+.glass {
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(42px);
+}
+
+.category::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.category::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.category::-webkit-scrollbar-thumb {
+  background-color: rgb(240, 240, 240); /* color of the scroll thumb */
+  border-radius: 30px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+
+body::-webkit-scrollbar {
+  width: 16px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f7f7f7; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ddd; /* color of the scroll thumb */
+  border-radius: 30px; /* roundness of the scroll thumb */
+  border: 3px solid #f7f7f7; /* creates padding around scroll thumb */
+}
+
+@-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+
+.scale-up-hor-left {
+  -webkit-animation: scale-up-hor-left 2s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-hor-left 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.slide-bottom {
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}

@@ -1,0 +1,71 @@
+{
+  "category":["All Categories", "3D Design", "Product Design", "Illustration", "NFT", "UIUX Design", "Animation"],
+  "data":[
+    {
+      "id":123,
+      "username":"nayanika",
+      "fullname":"Adinda Nayanika",
+      "title": "Nayanika Post 1",
+      "post_desc": "this is my first post",
+      "likes":6,
+      "comment":2,
+      "profil_img":"/cdn/public/nayanika.webp",
+      "post_img":"/cdn/public/pic1.webp"
+    },
+    {
+      "id":124,
+      "username":"aurelien",
+      "fullname":"Aurelien Aditya",
+      "title": "Aditya Post 1",
+      "post_desc": "Aditya first post",
+      "likes":6,
+      "comment":2,
+      "profil_img":"/cdn/public/aurelien.webp",
+      "post_img":"/cdn/public/pic3.webp"
+    },
+    {
+      "id":125,
+      "username":"elshafira",
+      "fullname":"El Shafira",
+      "title": "Shafira Post 1",
+      "post_desc": "Shafira first post",
+      "likes":2,
+      "comment":10,
+      "profil_img":"/cdn/public/el-shafira.jpg",
+      "post_img":"/cdn/public/pic2.webp"
+    },
+    {
+      "id":126,
+      "username":"ferry",
+      "fullname":"Ferry Lim",
+      "title": "Ferry Post 1",
+      "post_desc": "Ferry first post",
+      "likes":90,
+      "comment":292,
+      "profil_img":"/cdn/public/ferry.webp",
+      "post_img":"/cdn/public/pic4.webp"
+    },
+    {
+      "id":127,
+      "username":"nayanika",
+      "fullname":"Adinda Nayanika",
+      "title": "Nayanika Post 1",
+      "post_desc": "Nayanika first post",
+      "likes":6,
+      "comment":2,
+      "profil_img":"/cdn/public/nayanika.webp",
+      "post_img":"/cdn/public/pic5.webp"
+    },
+    {
+      "id":128,
+      "username":"lizza",
+      "fullname":"Lizza Manshour",
+      "title": "Lizza Post 1",
+      "post_desc": "Lizza first post",
+      "likes":6,
+      "comment":2,
+      "profil_img":"/cdn/public/lizza.webp",
+      "post_img":"/cdn/public/pic6.webp"
+    }
+  ]
+}
