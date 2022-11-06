@@ -1,2 +1,0 @@
-# picvul
-Photo Sharing App
